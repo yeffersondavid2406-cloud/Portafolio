@@ -33,7 +33,7 @@ function Hero() {
           </a>
 
           <a
-            href="/cv/hoja-de-vida.pdf"
+            href="/cv/Hoja-de-Vida.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn secondary"

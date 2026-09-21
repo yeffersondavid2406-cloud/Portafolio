@@ -33,7 +33,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/yeffersondavid2406-cloud"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,7 +42,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="www.linkedin.com/in/yefferson-guette-547b42325"
               target="_blank"
               rel="noopener noreferrer"
             >
