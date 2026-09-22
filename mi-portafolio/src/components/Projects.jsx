@@ -60,9 +60,9 @@ function Projects() {
         "React"
       ],
       type: "Página web",
-      image: "/proyectos/BusBaq.png",
-      demo: "#",
-      github: "#"
+      image: "../images/bus-baq.png",
+      demo: "https://bus-baq.vercel.app/",
+      github: "https://github.com/yeffersondavid2406-cloud/BusBaq.git"
     }
   ];
 

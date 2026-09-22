@@ -1,0 +1,3 @@
+# Workspace propio del proyecto para evitar que pnpm busque
+# el pnpm-workspace.yaml ubicado en C:\Users\ortiz
+packages: []

@@ -5,7 +5,7 @@ function Education() {
       title: "Técnico Laboral en Soporte Tecnico en Tecnologia (Sistemas)",
       institution: "Corporación Internacional Elon Yireh",
       description:
-        "Formación orientada al sector turístico, atención al cliente, asesoría y gestión de servicios de viajes."
+        "Formación enfocada en el mantenimiento y soporte de equipos informáticos, instalación y configuración de software, manejo de redes y solución de problemas tecnológicos. Desarrollo de conocimientos en sistemas, bases de datos y herramientas digitales para brindar asistencia técnica y contribuir al buen funcionamiento de los recursos tecnológicos."
     }
   ];
 
