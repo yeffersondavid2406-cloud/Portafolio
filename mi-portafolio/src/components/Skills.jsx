@@ -23,11 +23,11 @@ function Skills() {
     },
     {
       name: "Power Bi",
-      description: ""
+      description: "Creación de reportes, dashboards y visualizaciones para el análisis de datos."
     },
     {
       name: "Mysql",
-      description: "Gestion de bases de datos"
+      description: "Gestión de bases de datos relacionales, consultas SQL y administración de información"
     },
     {
       name: "PostgreSQL",

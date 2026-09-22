@@ -42,7 +42,7 @@ function Contact() {
             </a>
 
             <a
-              href="www.linkedin.com/in/yefferson-guette-547b42325"
+              href="https://www.linkedin.com/in/yefferson-guette-547b42325/"
               target="_blank"
               rel="noopener noreferrer"
             >

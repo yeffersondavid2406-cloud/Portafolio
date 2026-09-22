@@ -9,13 +9,11 @@ function Projects() {
         "HTML",
         "CSS",
         "JavaScript",
-        "Node.js",
-        "PostgreSQL"
       ],
       type: "E-commerce",
       image: "/proyectos/everland.png",
-      demo: "#",
-      github: "#"
+      demo: "https://everland-plum.vercel.app/",
+      github: "https://github.com/yeffersondavid2406-cloud/Everland.git"
     },
 
     {
@@ -32,23 +30,22 @@ function Projects() {
       ],
       type: "Aplicación Web",
       image: "/proyectos/login.png",
-      demo: "#",
-      github: "#"
+      demo: "https://formulario-web-lilac.vercel.app/",
+      github: "https://github.com/yeffersondavid2406-cloud/FormularioWEB.git"
     },
 
     {
       id: 3,
-      title: "Aplicación Educativa",
+      title: "Cafeteria-Elyon",
       description:
-        "Aplicación enfocada en el aprendizaje mediante juegos y actividades interactivas para niños.",
+        "Pagina web enfocada en la cafeteria de la institucion para facilitar a los clientes y personal de la cafeteria.",
       technologies: [
-        "Flutter",
-        "Dart"
+        "React",
       ],
-      type: "Aplicación móvil",
-      image: "/proyectos/educativo.png",
-      demo: "#",
-      github: "#"
+      type: "Pagina web",
+      image: "/proyectos/Cafeteria-Elyon.png",
+      demo: "https://cafeteria-phi-ten.vercel.app/",
+      github: "https://github.com/yeffersondavid2406-cloud/Cafeteria.git"
     },
 
     {
@@ -60,7 +57,7 @@ function Projects() {
         "React"
       ],
       type: "Página web",
-      image: "../images/bus-baq.png",
+      image: "/proyectos/bus-baq.png",
       demo: "https://bus-baq.vercel.app/",
       github: "https://github.com/yeffersondavid2406-cloud/BusBaq.git"
     }
@@ -89,6 +86,7 @@ function Projects() {
               key={project.id}
             >
 
+              {/* Imagen */}
               <div className="project-image">
                 <img
                   src={project.image}
@@ -96,6 +94,7 @@ function Projects() {
                 />
               </div>
 
+              {/* Información */}
               <div className="project-content">
 
                 <div className="project-header">
@@ -110,12 +109,15 @@ function Projects() {
 
                 </div>
 
-                <h3>{project.title}</h3>
+                <h3>
+                  {project.title}
+                </h3>
 
                 <p>
                   {project.description}
                 </p>
 
+                {/* Tecnologías */}
                 <div className="project-technologies">
 
                   {project.technologies.map((technology) => (
@@ -126,6 +128,7 @@ function Projects() {
 
                 </div>
 
+                {/* Botones */}
                 <div className="project-buttons">
 
                   <a

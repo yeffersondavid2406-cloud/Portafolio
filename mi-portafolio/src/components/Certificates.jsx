@@ -3,37 +3,30 @@ function Certificates() {
   const certificates = [
     {
       id: 1,
-      name: "Desarrollo Web",
-      institution: "Nombre de la institución",
-      date: "2026",
+      name: "I.A. Retos y Oportunidades de Negocio en Programación y Hardware",
+      institution: "Elyon Yireh",
+      date: "2025",
       description:
-        "Certificado relacionado con desarrollo y tecnologías web.",
-      file: "/certificados/desarrollo-web.pdf"
+        "Certificado relacionado con inteligencia artificial, programación, hardware y oportunidades de negocio.",
+      file: "/certificados/i.a. retos y oportunidades de negocio en programacion y hardware.pdf"
     },
 
     {
       id: 2,
-      name: "JavaScript",
-      institution: "Nombre de la institución",
+      name: "Instalación y Manejo de Cámara de Seguridad",
+      institution: "Elyon Yireh",
       date: "2026",
       description:
-        "Certificado relacionado con programación y JavaScript.",
-      file: "/certificados/javascript.pdf"
-    },
-
-    {
-      id: 3,
-      name: "Bases de Datos",
-      institution: "Nombre de la institución",
-      date: "2026",
-      description:
-        "Certificado relacionado con bases de datos y SQL.",
-      file: "/certificados/bases-datos.pdf"
+        "Certificado relacionado con la instalación, uso y manejo de cámaras de seguridad.",
+      file: "/certificados/instalación y manejo de camara de seguridad.pdf"
     }
   ];
 
   return (
-    <section id="certificados" className="certificates section">
+    <section
+      id="certificados"
+      className="certificates section"
+    >
 
       <div className="section-container">
 
