@@ -43,7 +43,7 @@ function Hero() {
 
           <a
             href="/cv/hoja-de-vida.pdf"
-            download="Hoja-de-vida-Yefferson-David.pdf"
+            download="Hoja-de-vida.pdf"
             className="btn secondary"
           >
             Descargar CV
